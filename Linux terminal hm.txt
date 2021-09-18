@@ -1,0 +1,39 @@
+1.Создать папку: mkdir Anasta22
+2.Зайти в папку: cd Anasta22
+3.Создать 3 папки:mkdir {Folder1,Folder2,Folder3}
+4.Зайти в любоую папку:cd Folder1
+5.Создать 5 файлов (3 txt,2 json): touch Anasta1_txt_file.txt Anasta2_txt_file.txt Anasta3_txt_file.txt Ana1_txt_file.json Ana2_txt_file.json
+6.Вывести список содержимого папки: ls -la
+7.Открыть любой txt файл: vim Anasta1_txt_file.txt 
+8.Написать туда что-нибудь: i --> Hello,World!
+9.Сохранить и выйти: escape:wq 
+10.Выйти из папки на уровень выше: ../
+11.Переместить любые 2 файла, которые вы создали, в любую другую папку: mv Anasta1_txt_file.txt Anasta2_txt_file.txt Folder20
+12.Cкопировать любые 2 файла, которые вы создали, в любую другую папку: cp ~/Ana1_txt_file.json Ana2_txt_file.json ~/Folder20/
+13.Найти файл по имени:find ./ -type f -name “*Anasta1_txt*.txt” 
+14.Просмотреть содержимое в реальном времени: # find . –name "*Anasta1_txt" | grep –i Folder10
+15.Вывести дату и время: date
+16.Посмотреть содержимое длинного файла: less Anasta3_txt_file.txt
+17.Вывести несколько первых строк из текстового файла:cat Anasta3_txt_file.txt  | (head -2)
+
+18.Вывести несколько последних строк из текстового файла:cat Anasta3_txt_file.txt  | (tail -2)
+
+
+Отправить запрос на сервер : curl -k post http://162.55.220.72:5005/get_method?name=vadim&age=32
+
+Script:
+
+touch script.txt
+vim script.txt 
+i 
+cd git
+mkdir {F1.F2.F3}
+cd 55
+touch Anasta1_txt_file.txt Anasta2_txt_file.txt Anasta3_txt_file.txt Ana1_txt_file.json Ana2_txt_file.json
+mkdir {F1,F2,F3}
+ls -la
+
+escape
+:wq
+
+$ ./script.txt
